@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Deepfake simulator</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- <h1 class="headertitle">Trainworld</h1> -->
+        <img class="trainworldlogo" src="./ressources/trainworld.png" alt="Trainworld logo">
+    </header>
+    <main>
+        <div class="listpeople">
+            <h2 class="alberttext active">Albert Einstein</h2>
+            <h2 class="baptistetext">Jean-Baptiste Flamme</h2>
+            <h2 class="olivetext">Olive Dennis</h2>
+        </div>
+        <div class="bodyDeepfake">
+            <div class="leftside" id='leftside'>
+                <video id="Deepfake" title="Deepfake" width="436" height="650" type="video/mp4"
+                    src="./ressources/einsteinStandby.mp4" muted autoplay loop>
+                </video>
+            </div>
+            <div class="Rightside">
+                <div class="buttons">
+                    <button id='buttonNL' class="button" type="buttonNL">NL</button>
+                    <button id='buttonFR' class="button" type="buttonFR">FR</button>
+                    <button id='buttonEN' class="button" type="buttonEN">EN</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
